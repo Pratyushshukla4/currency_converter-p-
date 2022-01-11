@@ -1,0 +1,43 @@
+.container{
+    height: auto;
+}
+.head{
+    font-size: 20px;
+}
+.inputfield{
+    height: 30px;
+    width: 80%;
+}
+.form1 {
+    display: none;
+}
+.form2{
+    display: none;
+}
+
+/* .sel1{
+    width: 100%;
+} */
+.arr{
+    display: block;
+}
+.arr1{
+    display: none;
+}
+.btn{
+    font-size: 18;
+    height: auto;
+}
+.sel2{
+   font-size: 20px;
+}
+.fff{
+width:  100%;
+}
+.ttt{
+width:  100%;
+}
+.country{
+    height: auto;
+    flex-direction: column;
+}

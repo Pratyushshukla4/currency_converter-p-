@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Project_9_curr_convert/index_9.css">
+    
+    <link rel="stylesheet" media="screen and (max-width: 440px)" href="/Project_9_curr_convert/media_9.css">
+    <link rel="stylesheet" media="screen and (max-width: 240px)" href="/Project_9_curr_convert/media_92.css">
+    <title>Currency Converter - P$ </title>
+</head>
+<body>
+    <div class="container">
+        
+        <h3 class="head">Currency Converter - P$</h3>
+      
+            <div class="enter">
+        <label class="ent"  for="">Enter Amount</label>
+    </div>
+        <br>
+        <input id="amount"  type="number" value="1" class="inputfield">
+   
+        <br>
+       
+
+       <p class="form1" style="font-size: 25px; margin-left: 5px;">From &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; To</p> 
+       <p class="form2" style="font-size: 25px; ">From   &nbsp; &nbsp; &nbsp; &nbsp; To</p> 
+<!-- //////////////// -->
+   <div class="country"> 
+         <div class="fff"> 
+          <img class="img"  src="https://flagcdn.com/48x36/us.png" alt="" width="28%" height="30px"/> 
+          <select id="formc"  class="sel1 sel2" > </select>
+        </div>
+         <b class="arr1" style="font-size: 25px;" >&#8646;</b>
+  <b class="arr" style="font-size: 25px; " > &nbsp; &nbsp; &nbsp; &nbsp;&#8645;</b>
+         <div class="ttt">/
+          <img  class="img" src="https://flagcdn.com/48x36/in.png" alt="" width="28%" height="30px"/> 
+          <select id="toc" class="sel1 sel2" aria-label=".form-select-sm example"></select>
+
+        </div>
+     </div>
+       
+ 
+  
+  <p id="result" class="change"></p>
+
+  <button id="btns" class="btn">Get Exchange Rate</button>
+
+
+    </div>
+   
+  <script src="/Project_9_curr_convert//country_list.js"></script>
+  <script src="/Project_9_curr_convert/index_9.js"></script> 
+</body>
+</html>

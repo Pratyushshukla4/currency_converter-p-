@@ -1,0 +1,132 @@
+body{
+    /* border : 2px solid red; */
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #675afe;
+}
+.container{
+    border : 2px solid #675afe;
+    display:  flex;
+    height: 500px;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.head{
+    /* border: 1px solid blue; */
+    height: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #675afe;
+    margin: 0px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inputt{
+    width: 100%;
+    /* border: 2px solid rgb(167, 0, 144); */
+}
+.inputfield{
+    width: 85%;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 10px;
+    border-color:#675afe ;
+    
+
+}
+
+.inputfield:hover{
+     border-color:#675afe ; 
+}
+
+.ent{
+    font-size: 30px;
+    margin-left: 0px;
+}
+.ssselll{
+    width: 100%;
+}
+/* .sel{
+    width: 86%;
+} */
+/* .sel1
+{
+   width: 40%; 
+   height: 50px;
+   font-size: 20px;
+   border-color:#675afe ;
+   border-radius: 10px;
+} */
+.change{
+    font-size: 28px;
+    color: #675afe;
+}
+.btn{
+    width: 80%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 21px;
+    background-color: #675afe;
+    border-radius: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.enter{
+    /* border: 2px solid red; */
+    width: 86%;
+}
+.form2{
+    display: none;
+}
+.arr{
+    display: none;
+}
+.country{
+ /* border: 2px solid red; */
+ display: flex;
+
+ width: 86%;
+ height:  50px;
+ justify-content: space-between;
+    align-content: center;
+
+}
+.fff{
+    border: 2px solid #675afe;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+}
+.ttt{
+    border: 2px solid #675afe;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+}
+.sel2{
+    width: 50%;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    
+ 
+}
+.sel2:hover{
+    border: none;
+}
+.border{
+    margin-bottom: 1px;
+    margin-top: -1px;
+}
+/* .img{
+    width: 30%;
+    height:  30%;
+} */
